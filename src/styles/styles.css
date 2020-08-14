@@ -1,39 +1,39 @@
 * {
     padding: 0;
     margin: 0;
-  }
+}
 
-  body{
-    font-family: 'Poppins', sans-serif;
-  }
+body {
+    font-family: "Poppins", sans-serif;
+}
 
-  input:focus, input.form-control:focus {
-
-    outline:none !important;
+input:focus,
+input.form-control:focus {
+    outline: none !important;
     outline-width: 0 !important;
     box-shadow: none;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
 }
-.headings{
+.headings {
     color: #3a444d;
-    font-family: "Poppins",Sans-serif;
+    font-family: "Poppins", Sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 31px;
 }
 
-  /* Nav bar */
-  .dropdown-toggle::after{
-      content: none !important;
-  }
-  .navber ul li:hover ul{
-      display: block;
-  }
-  .navbar{
+/* Nav bar */
+.dropdown-toggle::after {
+    content: none !important;
+}
+.navber ul li:hover ul {
+    display: block;
+}
+.navbar {
     background-color: #002b4d;
-  }
-  .navbar .nav-link {
+}
+.navbar .nav-link {
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -43,74 +43,73 @@
     text-transform: uppercase;
     line-height: 50px;
     transition: all 0.1s linear;
-  }
-  .navbar .nav-link:hover{
-      font-size: 15px;
-    color: #e12a21
-  }
-  .navbar .nav-item{
-      margin-left: 20px;
-  }
-  .navbar .dropdown-menu{
-      background-color: #002b4d;
-  }
-  .navbar .dropdown-item{
-      color: white;
-      border-bottom: 0.8px solid white;
-  }
-  .navbar .dropdown-item:hover{
+}
+.navbar .nav-link:hover {
+    font-size: 15px;
+    color: #e12a21;
+}
+.navbar .nav-item {
+    margin-left: 20px;
+}
+.navbar .dropdown-menu {
     background-color: #002b4d;
-    color: #e12a21
-  }
+}
+.navbar .dropdown-item {
+    color: white;
+    border-bottom: 0.8px solid white;
+}
+.navbar .dropdown-item:hover {
+    background-color: #002b4d;
+    color: #e12a21;
+}
 
 /* content */
-section.container .thumb-1{
-    background-image: url('../img/neotech_post_1.jpg');
+section.container .thumb-1 {
+    background-image: url("../img/neotech_post_1.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 400px;
 }
-section.container .thumb-2{
-    background-image: url('../img/neotech_post_2.jpg');
+section.container .thumb-2 {
+    background-image: url("../img/neotech_post_2.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 400px;
 }
-section.container .thumb-3{
-    background-image: url('../img/neotech_post_3.jpg');
+section.container .thumb-3 {
+    background-image: url("../img/neotech_post_3.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 400px;
 }
-section.container .thumb-btn{
+section.container .thumb-btn {
     background-color: #e12a21;
     color: white;
     font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: .03em;
+    letter-spacing: 0.03em;
     margin-bottom: 3px;
     margin-right: 5px;
     font-weight: 700;
 }
-section.container .thumb-1-text{
+section.container .thumb-1-text {
     font-size: 46px;
     margin-top: 10px;
     color: white;
     max-width: 404px;
     font-weight: 700;
 }
-section.container .thumb-2-text{
+section.container .thumb-2-text {
     font-size: 36px;
     margin-top: 10px;
     color: white;
     width: 100%;
     font-weight: 700;
-    
 }
-.thumb-2-text-group{
+.thumb-2-text-group {
     position: relative;
     z-index: 2;
 }
@@ -121,46 +120,46 @@ section.container .thumb-2-text{
     height: 70%;
     bottom: 0;
     z-index: 1;
-    background: rgba(0,0,0,.7);
-    background: linear-gradient(to top,rgba(0,0,0,.7) 0%,transparent 100%);
+    background: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
 }
 
 /* News update */
 
-.news-update{
+.news-update {
     margin: 70px auto;
 }
-.news-update .news-update-col{
+.news-update .news-update-col {
     border: 5px solid #f4f6f6;
     padding: 28px 24px 30px;
     box-sizing: border-box;
 }
-.news-update .title{
+.news-update .title {
     text-transform: none;
     letter-spacing: normal;
     color: #3a444d;
     font-weight: 700;
     font-size: 18px;
 }
-.news-update .subscribe-btn{
-    background: linear-gradient(to right,#fb4a64 0%,#f8875f 100%);
+.news-update .subscribe-btn {
+    background: linear-gradient(to right, #fb4a64 0%, #f8875f 100%);
     font-size: 16px;
     font-weight: 700;
     padding: 0 29px;
     color: white;
     border-radius: 5px !important;
 }
-.news-update .input-group-append{
+.news-update .input-group-append {
     position: relative;
     left: -3px;
 }
-.envelop-icon{
+.envelop-icon {
     position: absolute;
     top: 7px;
     left: 10px;
     z-index: 8;
 }
-.news-update .email-input{
+.news-update .email-input {
     padding: 0px;
     background-color: #f4f6f6;
     padding: 0px 32px;
@@ -168,42 +167,40 @@ section.container .thumb-2-text{
     border-top-left-radius: 5px !important;
     border-bottom-left-radius: 5px !important;
 }
-.news-update .email-input:focus{
+.news-update .email-input:focus {
     border: 1px solid red;
-
 }
-.news-update .form-check-label{
+.news-update .form-check-label {
     font-size: 14px;
 }
-.news-update .privacy-policy{
-    color: #e12a21;;
+.news-update .privacy-policy {
+    color: #e12a21;
 }
-.news-update .privacy-policy:hover{
+.news-update .privacy-policy:hover {
     color: black;
     text-decoration: none;
 }
 
-
 /* recommend  */
- .recommend .recommend-card{
+.recommend .recommend-card {
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 250px;
 }
-.recommend .recommend-img-1{
-    background-image: url('../img/neotech_post_1.jpg');
+.recommend .recommend-img-1 {
+    background-image: url("../img/neotech_post_1.jpg");
 }
-.recommend .recommend-img-2{
-    background-image: url('../img/neotech_post_2.jpg');
+.recommend .recommend-img-2 {
+    background-image: url("../img/neotech_post_2.jpg");
 }
-.recommend .recommend-img-3{
-    background-image: url('../img/neotech_post_3.jpg');
+.recommend .recommend-img-3 {
+    background-image: url("../img/neotech_post_3.jpg");
 }
-.recommend .recommend-img-4{
-    background-image: url('../img/neotech_post_4.jpg');
+.recommend .recommend-img-4 {
+    background-image: url("../img/neotech_post_4.jpg");
 }
-.recommend-card-title{
+.recommend-card-title {
     position: relative;
     z-index: 2;
     color: white;
@@ -212,96 +209,95 @@ section.container .thumb-2-text{
     font-weight: 700;
 }
 .recommend .recommend-card::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 14px;
     width: 90%;
     height: 70%;
     bottom: 0;
     z-index: 1;
-    background: rgba(0,0,0,.7);
-    background: linear-gradient(to top,rgba(0,0,0,.7) 0%,transparent 100%);
+    background: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
 }
 
 /* latest video */
-.latest-videos .select-video{
+.latest-videos .select-video {
     border: 3px solid #f4f6f6;
     border-left: none;
 }
-.latest-videos .video-title{
+.latest-videos .video-title {
     font-size: 14px;
     margin-top: 3px;
     line-height: 1.3;
     font-weight: 700;
 }
-.latest-videos .video-rows{
+.latest-videos .video-rows {
     cursor: pointer !important;
     padding-top: 15px;
     padding-bottom: 15px;
-    
 }
-.videos{
-    width:740px; 
-    height:429px;
+.videos {
+    /* width:740px;  */
+    height: 429px;
+    width: 100%;
 }
-.latest-videos .video-rows:hover{
+.latest-videos .video-rows:hover {
     color: #e12a21 !important ;
-    
 }
 
 /* Reviews */
 .card {
     border: none;
-  }
-.card .card-body{
+}
+.card .card-body {
     padding-left: 0px !important;
 }
-.card .cartegory{
+.card .cartegory {
     color: #e12a21;
     font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: .03em;
+    letter-spacing: 0.03em;
     margin-bottom: 3px;
     margin-right: 5px;
     font-weight: 700;
     text-decoration: none;
 }
-.card .cartegory:hover{
+.card .cartegory:hover {
     color: black;
 }
-.card .title{
+.card .title {
     color: black;
     text-decoration: none;
     font-size: 18px;
 }
-.card .title:hover{
+.card .title:hover {
     color: #e12a21;
 }
-.card .title:active{
+.card .title:active {
     color: black;
 }
-.card .date{
+.card .date {
     color: #908e99;
     font-size: 13px;
 }
-.card .fa-star{
+.card .fa-star {
     color: #fcb419;
 }
-.card .card-text{
+.card .card-text {
     font-size: 14px;
     color: #49545e;
 }
-.ads-sec{
-    width:728px;
-    height:90px;
+.ads-sec {
+    width: 728px;
+    height: 90px;
 }
 
 /* footer */
-footer{
+footer {
     background-color: #002b4d;
     color: white;
 }
-footer .footer-text-1{
+footer .footer-text-1 {
     font-size: 14px;
     line-height: 24px;
     color: white;
@@ -318,8 +314,8 @@ footer .socials a {
     margin-bottom: 7px;
     font-size: 15px;
     border-radius: 50%;
-    -webkit-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 .social-facebook {
@@ -334,11 +330,11 @@ footer .socials a {
 .widget-title {
     font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: .03em;
+    letter-spacing: 0.03em;
     margin-bottom: 18px;
     font-weight: 700;
 }
-.tweet-text{
+.tweet-text {
     font-size: 13px;
     line-height: 24px;
 }
@@ -351,10 +347,10 @@ footer .socials a {
     text-decoration: none;
     font-size: 13px;
 }
-.widget-social{
+.widget-social {
     color: #55acee;
 }
-.footer-menu{
+.footer-menu {
     list-style: none;
 }
 .footer-menu li {
@@ -365,13 +361,13 @@ footer .socials a {
     font-size: 14px;
     /* border-bottom: 1px solid #e1e5e6; */
 }
-.footer-menu li:nth-child(5){
+.footer-menu li:nth-child(5) {
     border-bottom: none;
 }
-.footer-menu li a{
+.footer-menu li a {
     color: #fff;
 }
-.footer-envelop-icon{
+.footer-envelop-icon {
     position: absolute;
     top: 32px;
     left: 26px;
@@ -382,7 +378,7 @@ footer .socials a {
     color: #919ba3;
     z-index: 8;
 }
-.footer-email-input{
+.footer-email-input {
     padding: 0px;
     background-color: #f4f6f6;
     padding: 0px 32px;
@@ -390,19 +386,19 @@ footer .socials a {
     border-top-left-radius: 5px !important;
     border-bottom-left-radius: 5px !important;
 }
-footer .form-check-label{
+footer .form-check-label {
     font-size: 12px;
 }
-footer .form-check-input{
+footer .form-check-input {
     width: 15px;
     height: 15px;
 }
-footer .form-check-label a{
-   color: white;
-   text-decoration: none;
+footer .form-check-label a {
+    color: white;
+    text-decoration: none;
 }
-footer .subscribe-btn{
-    background: linear-gradient(to right,#fb4a64 0%,#f8875f 100%);
+footer .subscribe-btn {
+    background: linear-gradient(to right, #fb4a64 0%, #f8875f 100%);
     font-size: 16px;
     font-weight: 700;
     height: 40px;
@@ -417,45 +413,54 @@ footer .subscribe-btn{
 .copyright a {
     color: #9aa3ab;
 }
-.copyright a:hover{
+.copyright a:hover {
     text-decoration: none;
     color: #e12a21;
 }
-@media only screen and (max-width:767px){
- 
-    section.container .thumb-1-text{
+@media only screen and (max-width: 991px) {
+    section.container .thumb-1-text {
+        font-size: 30px;
+    }
+    section.container .thumb-2-text {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    section.container .thumb-1-text {
         font-size: 26px;
         margin-top: 0px;
         margin-bottom: 20px;
         color: white;
         width: 100%;
     }
-    section.container .thumb-2-text{
+    section.container .thumb-2-text {
         font-size: 26px;
         margin-top: 0px;
         margin-bottom: 20px;
         width: 100%;
-        
     }
-    section.container .thumb-1, section.container .thumb-2, section.container .thumb-3{
+    section.container .thumb-1,
+    section.container .thumb-2,
+    section.container .thumb-3 {
         height: 300px;
     }
-    .news-update{
+    .news-update {
         margin: 40px auto;
     }
-    .news-update .title{
+    .news-update .title {
         font-size: 14px;
     }
-    .news-update .subscribe-btn{
+    .news-update .subscribe-btn {
         font-size: 14px;
         padding: 0 5px;
     }
-    .videos{
-        width:100%; 
-        height:100%;
+    .videos {
+        width: 100%;
+        height: 100%;
+        height: 329px;
     }
-    .ads-sec{
-        width:100%;
-        height:90px;
+    .ads-sec {
+        width: 100%;
+        height: 90px;
     }
 }
